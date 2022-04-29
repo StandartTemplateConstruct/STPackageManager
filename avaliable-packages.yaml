@@ -64,7 +64,7 @@
      - plasticwork.3dprinter
      
 
-- n: electronics.scilloscope
+- n: electronics.oscilloscope
   depends:
      - electronics.display.led
      - electronics.display.crt
