@@ -1,1 +1,13 @@
 
+World1:
+  Container1:
+    - STCMinimalColonySource1
+  Container2:
+    RobotStorageFacility1:
+      - Alice
+      - Bob
+      - Carlos
+      - David
+      - Eve
+      
+
