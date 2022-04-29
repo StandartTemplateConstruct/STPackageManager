@@ -1,13 +1,29 @@
 
-World1:
-  Container1:
-    - STCMinimalColonySource1
-  Container2:
-    RobotStorageFacility1:
-      - Alice
-      - Bob
-      - Carlos
-      - David
-      - Eve
-      
+name: World1
+content:
+  - name: Container1
+    content:
+      - name: STCMinimalColonySource1
+      - type: stc-minimal-colony-source
+  - name: Container2
+    content:
+      - name: RobotStorageFacility1
+        type: robot-storage-facility
+        content:
+          - name: Alice
+            type: humanoid-robot
+
+          - name: Bob
+            type: humanoid-robot
+
+          - name: Carlos
+            type: humanoid-robot
+
+          - name: David
+            type: humanoid-robot
+            
+          - name: Eve
+            type: humanoid-robot
+
+
 
