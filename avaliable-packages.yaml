@@ -19,5 +19,5 @@
       parameters: 
       - diameter
         
-- n: factory.wire
+- n: metalwork.wire-drawer
 
