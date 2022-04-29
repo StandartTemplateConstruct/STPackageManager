@@ -19,7 +19,56 @@
   depends:
     - n: material.wire
       parameters: 
-      - diameter
+        - diameter
         
 - n: metalwork.wire-drawer
+
+
+- n: metalwork.forge
+
+- n: electronics.display.crt
+  parameters: 
+    - n: diagonal
+      t: float
+  depends:
+    - n: cathode
+      quantity: 2
+    - n: electronics.display.crt.screen
+      depends: glasswork.polisher
+      parameters: 
+        - diameter
+        
+ - n: electronics.display.led
+ - n: electronics.computers.raspberrypi
+ - n: motors.circular.medium
+ - n: plasticwork.3dprinter
+   depends:
+     - electronics.display.led
+     - electronics.computers.raspberrypi
+     - motors.step.medium
+     - plasticwork.3dprinter
+     - metalwork.cnc-machine
+
+ - n: glasswork.polishing-circle
+   parameters: 
+     - n: abrasiveness
+       t: int
+
+
+       
+ - n: glasswork.polisher
+   depends:
+     - electronics.display.led
+     - electronics.computers.raspberrypi
+     - motors.circular.medium
+     - plasticwork.3dprinter
+     
+
+- n: electronics.scilloscope
+  depends:
+     - electronics.display.led
+     - electronics.display.crt
+     - electronics.computers.raspberrypi
+     - manipulators.turnknob
+     - plasticwork.3dprinter
 
