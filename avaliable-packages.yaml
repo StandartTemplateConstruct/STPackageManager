@@ -1,74 +1,46 @@
-- n: chair
-  parameters: 
-    - n: height
-      t: float
-- n: woodwork.hammer
-- n: woodwork.saw
-- n: material.wire
-  depends:
-    - metalwork.wire-drawer
-  parameters: 
-  - n: diameter
-    t: float
-- n: fastener.nail
-  parameters: 
-    - n: diameter
-      t: float
-    - n: length
-      t: float
-  depends:
-    - n: material.wire
-      parameters: 
-        - diameter
-        
-- n: metalwork.wire-drawer
-
-
-- n: metalwork.forge
-
-- n: electronics.display.crt
-  parameters: 
-    - n: diagonal
-      t: float
-  depends:
-    - n: cathode
-      quantity: 2
-    - n: electronics.display.crt.screen
-      depends: glasswork.polisher
-      parameters: 
-        - diameter
-        
- - n: electronics.display.led
- - n: electronics.computers.raspberrypi
- - n: motors.circular.medium
- - n: plasticwork.3dprinter
-   depends:
-     - electronics.display.led
-     - electronics.computers.raspberrypi
-     - motors.step.medium
-     - plasticwork.3dprinter
-     - metalwork.cnc-machine
-
- - n: glasswork.polishing-circle
-   parameters: 
-     - n: abrasiveness
-       t: int
-
-
-       
- - n: glasswork.polisher
-   depends:
-     - electronics.display.led
-     - electronics.computers.raspberrypi
-     - motors.circular.medium
-     - plasticwork.3dprinter
-     
-
-- n: electronics.oscilloscope
-  depends:
-     - electronics.display.led
-     - electronics.display.crt
-     - electronics.computers.raspberrypi
-     - manipulators.turnknob
-     - plasticwork.3dprinter
-
+packages:
+  - depends: [electronics.display.led, electronics.display.crt, electronics.computers.raspberrypi,
+              manipulators.turnknob, plasticwork.3dprinter]
+    n: electronics.oscilloscope
+  - n: chair
+    params:
+      - {n: height, t: float}
+  - {n: woodwork.hammer}
+  - {n: woodwork.saw}
+  - depends: [metalwork.wire-drawer]
+    n: material.wire
+    params:
+      - {n: diameter, t: float}
+  - depends:
+      - n: material.wire
+        parameters: [diameter]
+    n: fastener.nail
+    parameters:
+      - {n: diameter, t: float}
+      - {n: length, t: float}
+  - {n: metalwork.wire-drawer}
+  - {n: metalwork.forge}
+  - depends:
+      - {n: cathode, quantity: 2}
+      - depends: glasswork.polisher
+        n: electronics.display.crt.screen
+        parameters: [diameter]
+    n: electronics.display.crt
+    parameters:
+      - {n: diagonal, t: float}
+  - {n: electronics.display.led}
+  - {n: robot.humanoid}
+  - {n: electronics.computers.raspberrypi}
+  - {n: motors.circular.medium}
+  - depends: [electronics.display.led, electronics.computers.raspberrypi, motors.step.medium,
+              plasticwork.3dprinter, metalwork.cnc-machine]
+    n: plasticwork.3dprinter
+  - n: glasswork.polishing-circle
+    params:
+      - {n: abrasiveness, t: int}
+  - depends: [electronics.display.led, electronics.computers.raspberrypi, motors.circular.medium,
+              plasticwork.3dprinter]
+    n: glasswork.polisher
+  - {n: stc.world}
+  - {n: buildings.shipping-container}
+  - {n: stc.colony.src-minimal}
