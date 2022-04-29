@@ -5,6 +5,8 @@
 - n: woodwork.hammer
 - n: woodwork.saw
 - n: material.wire
+  depends:
+    - metalwork.wire-drawer
   parameters: 
   - n: diameter
     t: float
