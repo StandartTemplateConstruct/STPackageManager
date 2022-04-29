@@ -1,1 +1,23 @@
+- n: chair
+  parameters: 
+    - n: height
+      t: float
+- n: woodwork.hammer
+- n: woodwork.saw
+- n: material.wire
+  parameters: 
+  - n: diameter
+    t: float
+- n: fastener.nail
+  parameters: 
+    - n: diameter
+      t: float
+    - n: length
+      t: float
+  depends:
+    - n: material.wire
+      parameters: 
+      - diameter
+        
+- n: factory.wire
 
