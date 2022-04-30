@@ -112,6 +112,9 @@ if __name__ == "__main__":
     ARG_PARSER.parse_args(['install', 'woodwork.hammer'])
     ARG_PARSER.parse_args(['list-installed'])
     ARG_PARSER.parse_args(['install', 'woodwork.hammer'])
+
+    #fixme bring all readme
+
     args, unknownargs = ARG_PARSER.parse_known_args(['install', 'electronics.display.crt', "--diagonal", "32.5"])
 
     for package in PACKAGE_REGISTRY.all():
