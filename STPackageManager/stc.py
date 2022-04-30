@@ -74,9 +74,6 @@ def init_argparse():
     parser_install.add_argument('package', metavar='PACKAGE', type=str, nargs='+')
     parser_available = subparsers.add_parser('list-available')
     parser_installed = subparsers.add_parser('list-installed')
-    parser_installed = subparsers.add_parser('github-pull')
-    parser_installed = subparsers.add_parser('github-push')
-    parser_installed = subparsers.add_parser('github-push')
     return parser
 
 
@@ -114,16 +111,7 @@ if __name__ == "__main__":
     ARG_PARSER.parse_args(['list-installed'])
     ARG_PARSER.parse_args(['install', 'woodwork.hammer'])
     ARG_PARSER.parse_args(['list-installed'])
-    ARG_PARSER.parse_args(['github-push'])
-    ARG_PARSER.parse_args(['github-pull'])
-    ARG_PARSER.parse_args(['generate-comments', stc.py])
-    ARG_PARSER.parse_args(['generate-code', "StandardTemplateConstruct/doc/StandardTemplateConstruct.md"])
-    ARG_PARSER.parse_args(['generate-image', "StandardTemplateConstruct/doc/StandardTemplateConstruct.md"])
-    ARG_PARSER.parse_args(['generate-image', "StandardTemplateConstruct/doc/StandardTemplateConstruct.md"])
     ARG_PARSER.parse_args(['install', 'woodwork.hammer'])
-
-    #fixme bring all readme
-
     args, unknownargs = ARG_PARSER.parse_known_args(['install', 'electronics.display.crt', "--diagonal", "32.5"])
 
     for package in PACKAGE_REGISTRY.all():

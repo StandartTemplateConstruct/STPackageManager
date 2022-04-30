@@ -1,0 +1,16 @@
+name: World1
+type: stc.world
+content:
+- name: Container2
+  type: buildings.shipping-container
+  content:
+  - name: STCColonySrcMinimal1
+    type: stc.colony.src-minimal
+- name: Container1
+  type: buildings.shipping-container
+  content:
+  - {name: Alice, type: robot.humanoid}
+  - {name: Bob, type: robot.humanoid}
+  - {name: Carlos, type: robot.humanoid}
+  - {name: David, type: robot.humanoid}
+  - {name: Eve, type: robot.humanoid}
