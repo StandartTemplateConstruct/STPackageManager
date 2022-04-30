@@ -116,7 +116,7 @@ if __name__ == "__main__":
     ARG_PARSER.parse_args(['list-installed'])
     ARG_PARSER.parse_args(['github-push'])
     ARG_PARSER.parse_args(['github-pull'])
-    ARG_PARSER.parse_args(['generate-comments', stc.py])
+    ARG_PARSER.parse_args(['generate-comments', 'stc/test/WRITABLE/dummy.py'])
     ARG_PARSER.parse_args(['generate-code', "StandardTemplateConstruct/doc/StandardTemplateConstruct.md"])
     ARG_PARSER.parse_args(['generate-image', "StandardTemplateConstruct/doc/StandardTemplateConstruct.md"])
     ARG_PARSER.parse_args(['generate-image', "StandardTemplateConstruct/doc/StandardTemplateConstruct.md"])

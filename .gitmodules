@@ -172,3 +172,174 @@
 [submodule "things/ETHICOGenerator"]
 	path = things/ETHICOGenerator
 	url = git@github.com:StandartTemplateConstruct/ETHICOGenerator.git
+[submodule "STDroneGround"]
+	path = STDroneGround
+	url = git@github.com:StandartTemplateConstruct/STDroneGround.git
+[submodule "ST3DRailPositioning"]
+	path = ST3DRailPositioning
+	url = git@github.com:StandartTemplateConstruct/ST3DRailPositioning.git
+[submodule "STPanTiltPlatform"]
+	path = STPanTiltPlatform
+	url = git@github.com:StandartTemplateConstruct/STPanTiltPlatform.git
+[submodule "STPackageManager"]
+	path = STPackageManager
+	url = git@github.com:StandartTemplateConstruct/STPackageManager.git
+[submodule "GithubRepoPDFStudyBookGenerator"]
+	path = GithubRepoPDFStudyBookGenerator
+	url = git@github.com:StandartTemplateConstruct/GithubRepoPDFStudyBookGenerator.git
+[submodule "WikipediaGithubExport"]
+	path = WikipediaGithubExport
+	url = git@github.com:StandartTemplateConstruct/WikipediaGithubExport.git
+[submodule "NaturalSpeechUnrealEngineGameGenerator"]
+	path = NaturalSpeechUnrealEngineGameGenerator
+	url = git@github.com:StandartTemplateConstruct/NaturalSpeechUnrealEngineGameGenerator.git
+[submodule "GithubIssueRewardETH"]
+	path = GithubIssueRewardETH
+	url = git@github.com:StandartTemplateConstruct/GithubIssueRewardETH.git
+[submodule "GithubReadmePDFBookGenerator"]
+	path = GithubReadmePDFBookGenerator
+	url = git@github.com:StandartTemplateConstruct/GithubReadmePDFBookGenerator.git
+[submodule "ScreenKeyboardMouseAI"]
+	path = ScreenKeyboardMouseAI
+	url = git@github.com:StandartTemplateConstruct/ScreenKeyboardMouseAI.git
+[submodule "STWebShowRecorder"]
+	path = STWebShowRecorder
+	url = git@github.com:StandartTemplateConstruct/STWebShowRecorder.git
+[submodule "STMartialArts"]
+	path = STMartialArts
+	url = git@github.com:StandartTemplateConstruct/STMartialArts.git
+[submodule "STAROS"]
+	path = STAROS
+	url = git@github.com:StandartTemplateConstruct/STAROS.git
+[submodule "STube"]
+	path = STube
+	url = git@github.com:StandartTemplateConstruct/STube.git
+[submodule "iOSOpenMMLab"]
+	path = iOSOpenMMLab
+	url = git@github.com:StandartTemplateConstruct/iOSOpenMMLab.git
+[submodule "STPrintedBookAudioReader"]
+	path = STPrintedBookAudioReader
+	url = git@github.com:StandartTemplateConstruct/STPrintedBookAudioReader.git
+[submodule "ChatVideoMessageCategorizer"]
+	path = ChatVideoMessageCategorizer
+	url = git@github.com:StandartTemplateConstruct/ChatVideoMessageCategorizer.git
+[submodule "STVideoPlayer"]
+	path = STVideoPlayer
+	url = git@github.com:StandartTemplateConstruct/STVideoPlayer.git
+[submodule "STWebBrowser"]
+	path = STWebBrowser
+	url = git@github.com:StandartTemplateConstruct/STWebBrowser.git
+[submodule "GitDocumentationCommitAI"]
+	path = GitDocumentationCommitAI
+	url = git@github.com:StandartTemplateConstruct/GitDocumentationCommitAI.git
+[submodule "StandardTemplateConstruct"]
+	path = StandardTemplateConstruct
+	url = git@github.com:StandartTemplateConstruct/StandardTemplateConstruct.git
+[submodule "GithubETHProjectList"]
+	path = GithubETHProjectList
+	url = git@github.com:StandartTemplateConstruct/GithubETHProjectList.git
+[submodule "StandardTemplateCity"]
+	path = StandardTemplateCity
+	url = git@github.com:StandartTemplateConstruct/StandardTemplateCity.git
+[submodule "UnityHIDToROS"]
+	path = UnityHIDToROS
+	url = git@github.com:StandartTemplateConstruct/UnityHIDToROS.git
+[submodule "GithubRepoGenerator"]
+	path = GithubRepoGenerator
+	url = git@github.com:StandartTemplateConstruct/GithubRepoGenerator.git
+[submodule "SocialCompanyInterview"]
+	path = SocialCompanyInterview
+	url = git@github.com:StandartTemplateConstruct/SocialCompanyInterview.git
+[submodule "GithubProjectDependencyGraph"]
+	path = GithubProjectDependencyGraph
+	url = git@github.com:StandartTemplateConstruct/GithubProjectDependencyGraph.git
+[submodule "ROSToBluetoothUSBHIDDevice"]
+	path = ROSToBluetoothUSBHIDDevice
+	url = git@github.com:StandartTemplateConstruct/ROSToBluetoothUSBHIDDevice.git
+[submodule "CosmostreamerROS"]
+	path = CosmostreamerROS
+	url = git@github.com:StandartTemplateConstruct/CosmostreamerROS.git
+[submodule "ROSTouchScreenAutomatizer"]
+	path = ROSTouchScreenAutomatizer
+	url = git@github.com:StandartTemplateConstruct/ROSTouchScreenAutomatizer.git
+[submodule "STLandingPage"]
+	path = STLandingPage
+	url = git@github.com:StandartTemplateConstruct/STLandingPage.git
+[submodule "UnityVisionAid"]
+	path = UnityVisionAid
+	url = git@github.com:StandartTemplateConstruct/UnityVisionAid.git
+[submodule "UnityHumanoidROS"]
+	path = UnityHumanoidROS
+	url = git@github.com:StandartTemplateConstruct/UnityHumanoidROS.git
+[submodule "UnrealHumanoidROS"]
+	path = UnrealHumanoidROS
+	url = git@github.com:StandartTemplateConstruct/UnrealHumanoidROS.git
+[submodule "STSpeechAid"]
+	path = STSpeechAid
+	url = git@github.com:StandartTemplateConstruct/STSpeechAid.git
+[submodule "GithubDiscordJobPoster"]
+	path = GithubDiscordJobPoster
+	url = git@github.com:StandartTemplateConstruct/GithubDiscordJobPoster.git
+[submodule "ETHStore"]
+	path = ETHStore
+	url = git@github.com:StandartTemplateConstruct/ETHStore.git
+[submodule "ETHHotelRideFlight"]
+	path = ETHHotelRideFlight
+	url = git@github.com:StandartTemplateConstruct/ETHHotelRideFlight.git
+[submodule "GoogleSpreadsheetsETHAutoPayer"]
+	path = GoogleSpreadsheetsETHAutoPayer
+	url = git@github.com:StandartTemplateConstruct/GoogleSpreadsheetsETHAutoPayer.git
+[submodule "GoogleSpreadsheetsUSMailImporter"]
+	path = GoogleSpreadsheetsUSMailImporter
+	url = git@github.com:StandartTemplateConstruct/GoogleSpreadsheetsUSMailImporter.git
+[submodule "UnrealEnviromentAIGenerator"]
+	path = UnrealEnviromentAIGenerator
+	url = git@github.com:StandartTemplateConstruct/UnrealEnviromentAIGenerator.git
+[submodule "SublimeGithubOrgRepoEditor"]
+	path = SublimeGithubOrgRepoEditor
+	url = git@github.com:StandartTemplateConstruct/SublimeGithubOrgRepoEditor.git
+[submodule "STDJIMavic"]
+	path = STDJIMavic
+	url = git@github.com:StandartTemplateConstruct/STDJIMavic.git
+[submodule "STRTMPOpenMMLab"]
+	path = STRTMPOpenMMLab
+	url = git@github.com:StandartTemplateConstruct/STRTMPOpenMMLab.git
+[submodule "STHumanActions"]
+	path = STHumanActions
+	url = git@github.com:StandartTemplateConstruct/STHumanActions.git
+[submodule "STRealWorldObjectsGenerator"]
+	path = STRealWorldObjectsGenerator
+	url = git@github.com:StandartTemplateConstruct/STRealWorldObjectsGenerator.git
+[submodule "STRealWorldObjectsDecomposition"]
+	path = STRealWorldObjectsDecomposition
+	url = git@github.com:StandartTemplateConstruct/STRealWorldObjectsDecomposition.git
+[submodule "UnrealJavascriptBridge"]
+	path = UnrealJavascriptBridge
+	url = git@github.com:StandartTemplateConstruct/UnrealJavascriptBridge.git
+[submodule "STCTvShow"]
+	path = STCTvShow
+	url = git@github.com:StandartTemplateConstruct/STCTvShow.git
+[submodule "STConstructionPhotoListGenerator"]
+	path = STConstructionPhotoListGenerator
+	url = git@github.com:StandartTemplateConstruct/STConstructionPhotoListGenerator.git
+[submodule "STConstructionVideoGenerator"]
+	path = STConstructionVideoGenerator
+	url = git@github.com:StandartTemplateConstruct/STConstructionVideoGenerator.git
+[submodule "STSkyEye"]
+	path = STSkyEye
+	url = git@github.com:StandartTemplateConstruct/STSkyEye.git
+[submodule "AbletonLinkHeartbeatSync"]
+	path = AbletonLinkHeartbeatSync
+	url = git@github.com:StandartTemplateConstruct/AbletonLinkHeartbeatSync.git
+[submodule "UnrealRDP"]
+	path = UnrealRDP
+	url = git@github.com:StandartTemplateConstruct/UnrealRDP.git
+[submodule "UnrealSSH"]
+	path = UnrealSSH
+	url = git@github.com:StandartTemplateConstruct/UnrealSSH.git
+[submodule "UnrealJupyterNotebook"]
+	path = UnrealJupyterNotebook
+	url = git@github.com:StandartTemplateConstruct/UnrealJupyterNotebook.git
+[submodule "ETHICOGenerator"]
+	path = ETHICOGenerator
+	url = git@github.com:StandartTemplateConstruct/ETHICOGenerator.git
